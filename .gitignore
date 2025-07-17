@@ -18,6 +18,6 @@ logs
 .fleet
 .idea
 
-# 專案正式環境(就要不要追蹤)
+# 專案正式環境建議取消註解
 # .env.*
 # !.env.example 

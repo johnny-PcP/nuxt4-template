@@ -2,11 +2,13 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  future: {
+    compatibilityVersion: 4, // 從 Nuxt 3 升級，建議保留一段時間
+  },
   modules: [
     '@nuxt/eslint',
     '@nuxt/fonts',
     '@nuxt/image',
-    '@nuxt/scripts',
     '@nuxt/test-utils',
     '@nuxt/icon',
   ],

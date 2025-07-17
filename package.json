@@ -12,14 +12,12 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-
     "@nuxt/fonts": "^0.11.4",
     "@nuxt/icon": "^1.15.0",
     "@nuxt/image": "^1.10.0",
-    "@nuxt/scripts": "^0.11.9",
     "@nuxt/test-utils": "^3.19.2",
     "@unhead/vue": "^2.0.12",
-    "nuxt": "^3.17.6",
+    "nuxt": "^4.0.0",
     "vue": "^3.5.17",
     "vue-router": "^4.5.1",
     "zod": "^3.25.76"
