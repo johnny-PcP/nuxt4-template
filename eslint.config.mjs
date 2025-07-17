@@ -23,7 +23,7 @@ export default antfu({
     // 允許 console（開發和調試需要）
     'no-console': 'off',
 
-    // 禁用 Node.js 全域變數（配合 Nuxt 3 使用）
+    // 禁用 Node.js 全域變數（配合 Nuxt 4 使用）
     'node/prefer-global/process': 'off',
   },
 })

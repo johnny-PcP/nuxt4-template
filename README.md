@@ -1,6 +1,6 @@
-# Nuxt 3 大型專案通用模板
+# Nuxt 4 大型專案通用模板
 
-> 適用於大型專案和多人協作的 Nuxt 3 架構模板，整合 TypeScript、Zod、ESLint，採用現代化組件設計。
+> 適用於大型專案和多人協作的 Nuxt 4 架構模板，整合 TypeScript、Zod、ESLint，採用現代化組件設計。
 
 ## 專案架構設計理念
 

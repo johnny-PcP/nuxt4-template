@@ -5,11 +5,11 @@ import { NuxtLink } from '#components'
 
 // 設定頁面 meta
 useHead({
-  title: 'Nuxt 3 專案示範',
+  title: 'Nuxt 4 專案示範',
   meta: [
     {
       name: 'description',
-      content: '探索 Nuxt 3 + Zod + Service 架構的現代化前端開發專案',
+      content: '探索 Nuxt 4 + Zod + Service 架構的現代化前端開發專案',
     },
   ],
 })
@@ -21,10 +21,10 @@ useHead({
       <!-- 主標題 -->
       <div class="text-center mb-16">
         <h1 class="text-5xl font-bold text-gray-900 mb-4">
-          🚀 Nuxt 3 專案示範
+          🚀 Nuxt 4 專案示範
         </h1>
         <p class="text-xl text-gray-600 max-w-2xl mx-auto">
-          探索我們的 Nuxt 3 + Zod + Service 架構，體驗現代化的前端開發流程
+          探索我們的 Nuxt 4 + Zod + Service 架構，體驗現代化的前端開發流程
         </p>
       </div>
 
@@ -57,7 +57,7 @@ useHead({
           </div>
 
           <p class="text-gray-600 mb-6 leading-relaxed">
-            深入了解 Nuxt 3 + Zod + Service 架構的完整資料流程，包含 API
+            深入了解 Nuxt 4 + Zod + Service 架構的完整資料流程，包含 API
             呼叫、資料驗證、狀態管理等功能。
           </p>
 
@@ -109,7 +109,7 @@ useHead({
               高效能
             </h4>
             <p class="text-gray-600 text-sm">
-              Nuxt 3 + Vite 提供極速的開發體驗
+              Nuxt 4 + Vite 提供極速的開發體驗
             </p>
           </div>
           <div class="bg-white p-6 rounded-lg shadow-md">
@@ -140,7 +140,7 @@ useHead({
       <!-- 底部資訊 -->
       <div class="mt-16 text-center text-gray-500">
         <p class="text-sm">
-          Built with ❤️ using Nuxt 3, TypeScript, Tailwind CSS & Zod
+          Built with ❤️ using Nuxt 4, TypeScript, Tailwind CSS & Zod
         </p>
       </div>
     </div>

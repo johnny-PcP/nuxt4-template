@@ -2,15 +2,9 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  future: {
-    compatibilityVersion: 4, // 從 Nuxt 3 升級，建議保留一段時間
-  },
+  compatibilityDate: '2025-07-15',
   modules: [
     '@nuxt/eslint',
-    '@nuxt/fonts',
-    '@nuxt/image',
-    '@nuxt/test-utils',
-    '@nuxt/icon',
   ],
   components: false, // 禁用自動導入 components
   imports: {
@@ -42,7 +36,6 @@ export default defineNuxtConfig({
       apiTimeout: Number(process.env.NUXT_PUBLIC_API_TIMEOUT) || 5000,
     },
   },
-  compatibilityDate: '2025-05-15',
   vite: {
     plugins: [tailwindcss()],
   },
