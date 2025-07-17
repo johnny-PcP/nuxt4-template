@@ -19,5 +19,6 @@ logs
 .idea
 
 # 專案正式環境建議取消註解
+# .env
 # .env.*
 # !.env.example 
